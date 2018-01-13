@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842A57F41E6F2BB4001298C9 /* NetworkUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A57F31E6F2BB4001298C9 /* NetworkUI.swift */; };
+		842FA2591E6F368900EB558C /* DetailEtudiantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842FA2581E6F368900EB558C /* DetailEtudiantViewController.swift */; };
+		842FA25C1E6F376B00EB558C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842FA25B1E6F376B00EB558C /* DetailViewController.swift */; };
+		842FA25E1E6F379B00EB558C /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842FA25D1E6F379B00EB558C /* SampleData.swift */; };
+		842FA2601E6F385900EB558C /* sample_header_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 842FA25F1E6F385900EB558C /* sample_header_image.jpg */; };
 		8449E62A1E563D68003A76E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449E6291E563D68003A76E6 /* AppDelegate.swift */; };
 		8449E62C1E563D68003A76E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449E62B1E563D68003A76E6 /* ViewController.swift */; };
 		8449E62F1E563D68003A76E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8449E62D1E563D68003A76E6 /* Main.storyboard */; };
@@ -14,6 +19,38 @@
 		8449E6341E563D68003A76E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8449E6331E563D68003A76E6 /* Assets.xcassets */; };
 		8449E6371E563D68003A76E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8449E6351E563D68003A76E6 /* LaunchScreen.storyboard */; };
 		8449E6421E563D68003A76E6 /* TeacherKitv0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449E6411E563D68003A76E6 /* TeacherKitv0Tests.swift */; };
+		8449E6531E56401C003A76E6 /* Classe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449E64D1E56401C003A76E6 /* Classe.swift */; };
+		8449E6541E56401C003A76E6 /* Etudiant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449E64E1E56401C003A76E6 /* Etudiant.swift */; };
+		8449E6551E56401C003A76E6 /* Comportement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449E64F1E56401C003A76E6 /* Comportement.swift */; };
+		8449E6561E56401C003A76E6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449E6501E56401C003A76E6 /* User.swift */; };
+		8449E6571E56401C003A76E6 /* Absence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449E6511E56401C003A76E6 /* Absence.swift */; };
+		8449E6581E56401C003A76E6 /* Seance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449E6521E56401C003A76E6 /* Seance.swift */; };
+		8449E6601E56781F003A76E6 /* EPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449E65A1E56781F003A76E6 /* EPConstants.swift */; };
+		8449E6611E56781F003A76E6 /* EPContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449E65B1E56781F003A76E6 /* EPContact.swift */; };
+		8449E6621E56781F003A76E6 /* EPContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449E65C1E56781F003A76E6 /* EPContactCell.swift */; };
+		8449E6631E56781F003A76E6 /* EPContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8449E65D1E56781F003A76E6 /* EPContactCell.xib */; };
+		8449E6641E56781F003A76E6 /* EPContactsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449E65E1E56781F003A76E6 /* EPContactsPicker.swift */; };
+		8449E6651E56781F003A76E6 /* EPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449E65F1E56781F003A76E6 /* EPExtensions.swift */; };
+		8449E6731E56863C003A76E6 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8449E6681E56863C003A76E6 /* OpenSans-Bold.ttf */; };
+		8449E6741E56863C003A76E6 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8449E6691E56863C003A76E6 /* OpenSans-BoldItalic.ttf */; };
+		8449E6751E56863C003A76E6 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8449E66A1E56863C003A76E6 /* OpenSans-ExtraBold.ttf */; };
+		8449E6761E56863C003A76E6 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8449E66B1E56863C003A76E6 /* OpenSans-ExtraBoldItalic.ttf */; };
+		8449E6771E56863C003A76E6 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8449E66C1E56863C003A76E6 /* OpenSans-Italic.ttf */; };
+		8449E6781E56863C003A76E6 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8449E66D1E56863C003A76E6 /* OpenSans-Light.ttf */; };
+		8449E6791E56863C003A76E6 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8449E66E1E56863C003A76E6 /* OpenSans-LightItalic.ttf */; };
+		8449E67A1E56863C003A76E6 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8449E66F1E56863C003A76E6 /* OpenSans-Regular.ttf */; };
+		8449E67B1E56863C003A76E6 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8449E6701E56863C003A76E6 /* OpenSans-Semibold.ttf */; };
+		8449E67C1E56863C003A76E6 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8449E6711E56863C003A76E6 /* OpenSans-SemiboldItalic.ttf */; };
+		8449E67D1E56863C003A76E6 /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449E6721E56863C003A76E6 /* DemoCell.swift */; };
+		8449E67F1E5687BA003A76E6 /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449E67E1E5687BA003A76E6 /* FoldingCell.swift */; };
+		8449E6811E56894D003A76E6 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449E6801E56894D003A76E6 /* MainTableViewController.swift */; };
+		8449E6831E569940003A76E6 /* ClasseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449E6821E569940003A76E6 /* ClasseViewController.swift */; };
+		A74CF81E1E6F986E00EC72A5 /* DetailEtudiantpagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CF81D1E6F986E00EC72A5 /* DetailEtudiantpagerViewController.swift */; };
+		A74CF8281E6FB08200EC72A5 /* ComportementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CF8251E6FB08200EC72A5 /* ComportementViewController.swift */; };
+		A74CF8291E6FB08200EC72A5 /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CF8261E6FB08200EC72A5 /* SearchCollectionViewCell.swift */; };
+		A74CF82A1E6FB08200EC72A5 /* TextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CF8271E6FB08200EC72A5 /* TextCollectionViewCell.swift */; };
+		A74CF82C1E6FB10800EC72A5 /* RSKCollectionViewRetractableFirstItemLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CF82B1E6FB10800EC72A5 /* RSKCollectionViewRetractableFirstItemLayout.swift */; };
+		DF3F3FA38D10A97A93BECA0C /* Pods_TeacherKitv0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5487F300ADD98A1B7B1E8683 /* Pods_TeacherKitv0.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +64,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5487F300ADD98A1B7B1E8683 /* Pods_TeacherKitv0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeacherKitv0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB47D2F28F0632F9FB87C8F /* Pods-TeacherKitv0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeacherKitv0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeacherKitv0/Pods-TeacherKitv0.debug.xcconfig"; sourceTree = "<group>"; };
+		842A57F31E6F2BB4001298C9 /* NetworkUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUI.swift; sourceTree = "<group>"; };
+		842FA2581E6F368900EB558C /* DetailEtudiantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailEtudiantViewController.swift; sourceTree = "<group>"; };
+		842FA25B1E6F376B00EB558C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		842FA25D1E6F379B00EB558C /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		842FA25F1E6F385900EB558C /* sample_header_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample_header_image.jpg; sourceTree = "<group>"; };
 		8449E6261E563D68003A76E6 /* TeacherKitv0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeacherKitv0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8449E6291E563D68003A76E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8449E62B1E563D68003A76E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +82,38 @@
 		8449E63D1E563D68003A76E6 /* TeacherKitv0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeacherKitv0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8449E6411E563D68003A76E6 /* TeacherKitv0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherKitv0Tests.swift; sourceTree = "<group>"; };
 		8449E6431E563D68003A76E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8449E64D1E56401C003A76E6 /* Classe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classe.swift; sourceTree = "<group>"; };
+		8449E64E1E56401C003A76E6 /* Etudiant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Etudiant.swift; sourceTree = "<group>"; };
+		8449E64F1E56401C003A76E6 /* Comportement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comportement.swift; sourceTree = "<group>"; };
+		8449E6501E56401C003A76E6 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8449E6511E56401C003A76E6 /* Absence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Absence.swift; sourceTree = "<group>"; };
+		8449E6521E56401C003A76E6 /* Seance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seance.swift; sourceTree = "<group>"; };
+		8449E65A1E56781F003A76E6 /* EPConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPConstants.swift; sourceTree = "<group>"; };
+		8449E65B1E56781F003A76E6 /* EPContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPContact.swift; sourceTree = "<group>"; };
+		8449E65C1E56781F003A76E6 /* EPContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPContactCell.swift; sourceTree = "<group>"; };
+		8449E65D1E56781F003A76E6 /* EPContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EPContactCell.xib; sourceTree = "<group>"; };
+		8449E65E1E56781F003A76E6 /* EPContactsPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPContactsPicker.swift; sourceTree = "<group>"; };
+		8449E65F1E56781F003A76E6 /* EPExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPExtensions.swift; sourceTree = "<group>"; };
+		8449E6681E56863C003A76E6 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		8449E6691E56863C003A76E6 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8449E66A1E56863C003A76E6 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8449E66B1E56863C003A76E6 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		8449E66C1E56863C003A76E6 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		8449E66D1E56863C003A76E6 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		8449E66E1E56863C003A76E6 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		8449E66F1E56863C003A76E6 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		8449E6701E56863C003A76E6 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		8449E6711E56863C003A76E6 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		8449E6721E56863C003A76E6 /* DemoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
+		8449E67E1E5687BA003A76E6 /* FoldingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoldingCell.swift; sourceTree = "<group>"; };
+		8449E6801E56894D003A76E6 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		8449E6821E569940003A76E6 /* ClasseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClasseViewController.swift; sourceTree = "<group>"; };
+		9A93B8FE6A41C71CAE3281F0 /* Pods-TeacherKitv0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeacherKitv0.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeacherKitv0/Pods-TeacherKitv0.release.xcconfig"; sourceTree = "<group>"; };
+		A74CF81D1E6F986E00EC72A5 /* DetailEtudiantpagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailEtudiantpagerViewController.swift; sourceTree = "<group>"; };
+		A74CF8251E6FB08200EC72A5 /* ComportementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComportementViewController.swift; sourceTree = "<group>"; };
+		A74CF8261E6FB08200EC72A5 /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		A74CF8271E6FB08200EC72A5 /* TextCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCollectionViewCell.swift; sourceTree = "<group>"; };
+		A74CF82B1E6FB10800EC72A5 /* RSKCollectionViewRetractableFirstItemLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSKCollectionViewRetractableFirstItemLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF3F3FA38D10A97A93BECA0C /* Pods_TeacherKitv0.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +135,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7CEF75946BAEDFC60C38430C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5487F300ADD98A1B7B1E8683 /* Pods_TeacherKitv0.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		842FA25A1E6F36F900EB558C /* detailStudent */ = {
+			isa = PBXGroup;
+			children = (
+				842FA25F1E6F385900EB558C /* sample_header_image.jpg */,
+				842FA25D1E6F379B00EB558C /* SampleData.swift */,
+				842FA25B1E6F376B00EB558C /* DetailViewController.swift */,
+				A74CF8251E6FB08200EC72A5 /* ComportementViewController.swift */,
+				A74CF8261E6FB08200EC72A5 /* SearchCollectionViewCell.swift */,
+				A74CF8271E6FB08200EC72A5 /* TextCollectionViewCell.swift */,
+				A74CF82B1E6FB10800EC72A5 /* RSKCollectionViewRetractableFirstItemLayout.swift */,
+			);
+			name = detailStudent;
+			sourceTree = "<group>";
+		};
 		8449E61D1E563D68003A76E6 = {
 			isa = PBXGroup;
 			children = (
 				8449E6281E563D68003A76E6 /* TeacherKitv0 */,
 				8449E6401E563D68003A76E6 /* TeacherKitv0Tests */,
 				8449E6271E563D68003A76E6 /* Products */,
+				8D34ECB3A197A17A8CE383FD /* Pods */,
+				7CEF75946BAEDFC60C38430C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +180,17 @@
 		8449E6281E563D68003A76E6 /* TeacherKitv0 */ = {
 			isa = PBXGroup;
 			children = (
+				842FA25A1E6F36F900EB558C /* detailStudent */,
+				842FA2581E6F368900EB558C /* DetailEtudiantViewController.swift */,
+				A74CF81D1E6F986E00EC72A5 /* DetailEtudiantpagerViewController.swift */,
+				842A57F31E6F2BB4001298C9 /* NetworkUI.swift */,
+				8449E6821E569940003A76E6 /* ClasseViewController.swift */,
+				8449E6801E56894D003A76E6 /* MainTableViewController.swift */,
+				8449E6721E56863C003A76E6 /* DemoCell.swift */,
+				8449E6671E568545003A76E6 /* FoldingCell */,
+				8449E6661E568525003A76E6 /* fonts */,
+				8449E6591E565EDF003A76E6 /* ListClass */,
+				8449E64C1E563F46003A76E6 /* Entity */,
 				8449E6291E563D68003A76E6 /* AppDelegate.swift */,
 				8449E62B1E563D68003A76E6 /* ViewController.swift */,
 				8449E62D1E563D68003A76E6 /* Main.storyboard */,
@@ -99,6 +211,66 @@
 			path = TeacherKitv0Tests;
 			sourceTree = "<group>";
 		};
+		8449E64C1E563F46003A76E6 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				8449E64D1E56401C003A76E6 /* Classe.swift */,
+				8449E64E1E56401C003A76E6 /* Etudiant.swift */,
+				8449E64F1E56401C003A76E6 /* Comportement.swift */,
+				8449E6501E56401C003A76E6 /* User.swift */,
+				8449E6511E56401C003A76E6 /* Absence.swift */,
+				8449E6521E56401C003A76E6 /* Seance.swift */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		8449E6591E565EDF003A76E6 /* ListClass */ = {
+			isa = PBXGroup;
+			children = (
+				8449E65A1E56781F003A76E6 /* EPConstants.swift */,
+				8449E65B1E56781F003A76E6 /* EPContact.swift */,
+				8449E65C1E56781F003A76E6 /* EPContactCell.swift */,
+				8449E65D1E56781F003A76E6 /* EPContactCell.xib */,
+				8449E65E1E56781F003A76E6 /* EPContactsPicker.swift */,
+				8449E65F1E56781F003A76E6 /* EPExtensions.swift */,
+			);
+			name = ListClass;
+			sourceTree = "<group>";
+		};
+		8449E6661E568525003A76E6 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8449E6681E56863C003A76E6 /* OpenSans-Bold.ttf */,
+				8449E6691E56863C003A76E6 /* OpenSans-BoldItalic.ttf */,
+				8449E66A1E56863C003A76E6 /* OpenSans-ExtraBold.ttf */,
+				8449E66B1E56863C003A76E6 /* OpenSans-ExtraBoldItalic.ttf */,
+				8449E66C1E56863C003A76E6 /* OpenSans-Italic.ttf */,
+				8449E66D1E56863C003A76E6 /* OpenSans-Light.ttf */,
+				8449E66E1E56863C003A76E6 /* OpenSans-LightItalic.ttf */,
+				8449E66F1E56863C003A76E6 /* OpenSans-Regular.ttf */,
+				8449E6701E56863C003A76E6 /* OpenSans-Semibold.ttf */,
+				8449E6711E56863C003A76E6 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		8449E6671E568545003A76E6 /* FoldingCell */ = {
+			isa = PBXGroup;
+			children = (
+				8449E67E1E5687BA003A76E6 /* FoldingCell.swift */,
+			);
+			name = FoldingCell;
+			sourceTree = "<group>";
+		};
+		8D34ECB3A197A17A8CE383FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BB47D2F28F0632F9FB87C8F /* Pods-TeacherKitv0.debug.xcconfig */,
+				9A93B8FE6A41C71CAE3281F0 /* Pods-TeacherKitv0.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8449E6461E563D68003A76E6 /* Build configuration list for PBXNativeTarget "TeacherKitv0" */;
 			buildPhases = (
+				776FC03ED415E996D15AAD44 /* [CP] Check Pods Manifest.lock */,
 				8449E6221E563D68003A76E6 /* Sources */,
 				8449E6231E563D68003A76E6 /* Frameworks */,
 				8449E6241E563D68003A76E6 /* Resources */,
+				30CC3AF0BE95230CD249E12B /* [CP] Embed Pods Frameworks */,
+				2452C45A74E5FADB579F6FB6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +357,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8449E6771E56863C003A76E6 /* OpenSans-Italic.ttf in Resources */,
+				8449E6741E56863C003A76E6 /* OpenSans-BoldItalic.ttf in Resources */,
 				8449E6371E563D68003A76E6 /* LaunchScreen.storyboard in Resources */,
+				8449E67B1E56863C003A76E6 /* OpenSans-Semibold.ttf in Resources */,
+				8449E6751E56863C003A76E6 /* OpenSans-ExtraBold.ttf in Resources */,
 				8449E6341E563D68003A76E6 /* Assets.xcassets in Resources */,
+				8449E6791E56863C003A76E6 /* OpenSans-LightItalic.ttf in Resources */,
 				8449E62F1E563D68003A76E6 /* Main.storyboard in Resources */,
+				8449E6731E56863C003A76E6 /* OpenSans-Bold.ttf in Resources */,
+				8449E6631E56781F003A76E6 /* EPContactCell.xib in Resources */,
+				842FA2601E6F385900EB558C /* sample_header_image.jpg in Resources */,
+				8449E67C1E56863C003A76E6 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				8449E6781E56863C003A76E6 /* OpenSans-Light.ttf in Resources */,
+				8449E67A1E56863C003A76E6 /* OpenSans-Regular.ttf in Resources */,
+				8449E6761E56863C003A76E6 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,14 +384,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2452C45A74E5FADB579F6FB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeacherKitv0/Pods-TeacherKitv0-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30CC3AF0BE95230CD249E12B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeacherKitv0/Pods-TeacherKitv0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		776FC03ED415E996D15AAD44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8449E6221E563D68003A76E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8449E62C1E563D68003A76E6 /* ViewController.swift in Sources */,
+				8449E6581E56401C003A76E6 /* Seance.swift in Sources */,
+				8449E6811E56894D003A76E6 /* MainTableViewController.swift in Sources */,
+				8449E6571E56401C003A76E6 /* Absence.swift in Sources */,
 				8449E62A1E563D68003A76E6 /* AppDelegate.swift in Sources */,
+				8449E6601E56781F003A76E6 /* EPConstants.swift in Sources */,
+				842FA25C1E6F376B00EB558C /* DetailViewController.swift in Sources */,
+				8449E6551E56401C003A76E6 /* Comportement.swift in Sources */,
+				8449E6651E56781F003A76E6 /* EPExtensions.swift in Sources */,
+				A74CF8291E6FB08200EC72A5 /* SearchCollectionViewCell.swift in Sources */,
+				8449E6641E56781F003A76E6 /* EPContactsPicker.swift in Sources */,
+				842A57F41E6F2BB4001298C9 /* NetworkUI.swift in Sources */,
+				8449E6611E56781F003A76E6 /* EPContact.swift in Sources */,
+				8449E6621E56781F003A76E6 /* EPContactCell.swift in Sources */,
+				8449E6831E569940003A76E6 /* ClasseViewController.swift in Sources */,
+				A74CF8281E6FB08200EC72A5 /* ComportementViewController.swift in Sources */,
+				A74CF82C1E6FB10800EC72A5 /* RSKCollectionViewRetractableFirstItemLayout.swift in Sources */,
+				842FA2591E6F368900EB558C /* DetailEtudiantViewController.swift in Sources */,
+				8449E6541E56401C003A76E6 /* Etudiant.swift in Sources */,
+				8449E6531E56401C003A76E6 /* Classe.swift in Sources */,
 				8449E6321E563D68003A76E6 /* TeacherKitv0.xcdatamodeld in Sources */,
+				A74CF81E1E6F986E00EC72A5 /* DetailEtudiantpagerViewController.swift in Sources */,
+				8449E6561E56401C003A76E6 /* User.swift in Sources */,
+				842FA25E1E6F379B00EB558C /* SampleData.swift in Sources */,
+				8449E67D1E56863C003A76E6 /* DemoCell.swift in Sources */,
+				8449E67F1E5687BA003A76E6 /* FoldingCell.swift in Sources */,
+				A74CF82A1E6FB08200EC72A5 /* TextCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +598,7 @@
 		};
 		8449E6471E563D68003A76E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BB47D2F28F0632F9FB87C8F /* Pods-TeacherKitv0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TeacherKitv0/Info.plist;
@@ -351,6 +611,7 @@
 		};
 		8449E6481E563D68003A76E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A93B8FE6A41C71CAE3281F0 /* Pods-TeacherKitv0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TeacherKitv0/Info.plist;
@@ -408,6 +669,7 @@
 				8449E6481E563D68003A76E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8449E6491E563D68003A76E6 /* Build configuration list for PBXNativeTarget "TeacherKitv0Tests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +678,7 @@
 				8449E64B1E563D68003A76E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

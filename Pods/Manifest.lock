@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.3.0)
+  - ViewPagerController (1.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - ViewPagerController
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  ViewPagerController: e302d56b5049ad8c510c5ff0bb7cf2724f13655d
+
+PODFILE CHECKSUM: ee38b5e4b75e03c65770d788db15f5c9efdd8d54
+
+COCOAPODS: 1.2.0
